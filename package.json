@@ -1,0 +1,21 @@
+{
+  "name": "sultan-yayinci",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sultan Grill House sosyal medya otomatik yayincisi (Meta Graph API: Facebook Sayfasi + Instagram)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "tick": "node src/tick.js",
+    "canary": "node src/tick.js --only",
+    "check-token": "node src/tools/check-token.js",
+    "get-ids": "node src/tools/get-ids.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3"
+  }
+}
