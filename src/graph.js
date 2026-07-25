@@ -76,6 +76,16 @@ export async function getIgInfo(igUserId) {
   return { username: body.username || null, name: body.name || null };
 }
 
+// Sayfa uzerinden tani: token Sayfayi okuyabiliyor mu + Sayfaya bagli IG id'si + sayfa token'i var mi.
+export async function getPageInfo(pageId) {
+  const body = await graphGet(pageId, { fields: 'name,instagram_business_account,access_token' });
+  return {
+    name: body.name || null,
+    igId: body?.instagram_business_account?.id || null,
+    hasPageToken: !!body.access_token,
+  };
+}
+
 // IG 24 saatlik yayin kotasi (100/gun).
 export async function getIgPublishLimit(igUserId) {
   const body = await graphGet(`${igUserId}/content_publishing_limit`, {

@@ -13,7 +13,7 @@ import { readState } from './state.js';
 import { dueItems, upcomingItems, findById, readSchedule } from './scheduler.js';
 import { runTick } from './tick.js';
 import { publishItem } from './publisher.js';
-import { whoAmI, getIgUserId, getIgInfo, getIgPublishLimit } from './graph.js';
+import { whoAmI, getIgUserId, getIgInfo, getPageInfo, getIgPublishLimit } from './graph.js';
 
 const app = express();
 app.use(express.json());
@@ -43,6 +43,7 @@ app.get('/api/status', auth, async (req, res) => {
   // Token kontrolu: /me basarili ise token GECERLI. IG kontrolleri ayri,
   // basarisiz olsalar bile token'i "hatali" yapmaz.
   let token = { ok: false };
+  let pageCheck = null; // Sayfa->IG tanisi (token Sayfayi okuyabiliyor mu, bagli IG id)
   let igCheck = null; // instagram_basic testi (IG hesabini okuyabiliyor mu?)
   let igQuota = null; // instagram_content_publish + yayin kotasi
   try {
@@ -50,6 +51,10 @@ app.get('/api/status', auth, async (req, res) => {
     token = { ok: true, name: me.name || me.id };
   } catch (e) {
     token = { ok: false, error: e.message, tokenError: !!e.isTokenError };
+  }
+  if (token.ok && config.pageId) {
+    try { pageCheck = { ok: true, ...(await getPageInfo(config.pageId)) }; }
+    catch (e) { pageCheck = { ok: false, error: e.message }; }
   }
   if (token.ok && config.igUserId) {
     try { igCheck = { ok: true, ...(await getIgInfo(config.igUserId)) }; }
@@ -70,6 +75,7 @@ app.get('/api/status', auth, async (req, res) => {
     mode: { dryRun: config.dryRun, paused: config.paused, tz: config.tz, graphVersion: config.graphVersion },
     config: { missing: missingConfig(), lock: lockStatus(), pageId: config.pageId, igUserId: config.igUserId, publicBaseUrl: config.publicBaseUrl },
     token,
+    pageCheck,
     igCheck,
     igQuota,
     totals: { planned: (sched.items || []).length, published: published.length, failed: failed.length },
@@ -156,6 +162,7 @@ async function load(){
   const tok=d.token.ok?'<span class="ok">gecerli ('+esc(d.token.name)+')</span>':'<span class="bad">HATA: '+esc(d.token.error||'yok')+'</span>';
   const lock=d.config.lock.locked?'<span class="warn">AKTIF - '+esc(d.config.lock.problems.join(' | '))+'</span>':'<span class="ok">acik</span>';
   const miss=d.config.missing.length?'<span class="bad">'+d.config.missing.join(', ')+'</span>':'<span class="ok">tam</span>';
+  const pgc=d.pageCheck?(d.pageCheck.ok?'<span class="ok">'+esc(d.pageCheck.name||'?')+'</span> <small>(bagli IG: '+esc(d.pageCheck.igId||'yok')+')</small>':'<span class="bad">HATA: '+esc(d.pageCheck.error||'')+'</span>'):'';
   const igc=d.igCheck?(d.igCheck.ok?'<span class="ok">erisiliyor (@'+esc(d.igCheck.username||'?')+')</span>':'<span class="bad">HATA: '+esc(d.igCheck.error||'')+'</span>'):'';
   const quota=d.igQuota?(d.igQuota.ok?'kota '+(d.igQuota.used??'?')+' / '+d.igQuota.total:'<span class="warn">kota okunamadi: '+esc(d.igQuota.error||'')+'</span>'):'';
   let h='';
@@ -164,6 +171,7 @@ async function load(){
      '<div class=row><span class=k>Guvenlik kilidi</span><span>'+lock+'</span></div>'+
      '<div class=row><span class=k>Ayarlar</span><span>'+miss+'</span></div>'+
      '<div class=row><span class=k>PAGE_ID / IG_USER_ID</span><span class=mono>'+esc(d.config.pageId||'-')+' / '+esc(d.config.igUserId||'-')+'</span></div>'+
+     (pgc?'<div class=row><span class=k>Sayfa erisim</span><span>'+pgc+'</span></div>':'')+
      (igc?'<div class=row><span class=k>Instagram erisim</span><span>'+igc+'</span></div>':'')+
      (quota?'<div class=row><span class=k>Instagram kota</span><span>'+quota+'</span></div>':'')+
      '<div class=row><span class=k>Plan / Yayinlanan / Hatali</span><span>'+d.totals.planned+' / <span class=ok>'+d.totals.published+'</span> / <span class=bad>'+d.totals.failed+'</span></span></div>'+
