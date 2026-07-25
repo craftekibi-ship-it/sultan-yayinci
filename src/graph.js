@@ -22,9 +22,28 @@ function graphError(path, body) {
   return err;
 }
 
-async function graphGet(path, params = {}) {
+// Yayin islemleri (FB Sayfa + IG) SAYFA erisim token'i ister. Onu System User
+// token'indan turetip cache'liyoruz (uzun omurlu, cunku kaynak token suresiz).
+let _pageToken = null;
+async function pageToken() {
+  if (_pageToken) return _pageToken;
+  if (!config.pageId || !config.token) return config.token;
+  try {
+    const url = new URL(`${GRAPH}/${config.pageId}`);
+    url.searchParams.set('access_token', config.token);
+    url.searchParams.set('fields', 'access_token');
+    const res = await fetch(url);
+    const body = await res.json().catch(() => ({}));
+    if (body?.access_token) _pageToken = body.access_token;
+  } catch { /* olmazsa kaynak token'a dus */ }
+  return _pageToken || config.token;
+}
+
+// token verilmezse Sayfa token'i kullanilir (yayin icin dogru olan).
+async function graphGet(path, params = {}, token) {
+  const t = token || (await pageToken());
   const url = new URL(`${GRAPH}/${path}`);
-  url.searchParams.set('access_token', config.token);
+  url.searchParams.set('access_token', t);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   const res = await fetch(url, { method: 'GET' });
   const body = await res.json().catch(() => ({}));
@@ -32,9 +51,10 @@ async function graphGet(path, params = {}) {
   return body;
 }
 
-async function graphPost(path, params = {}) {
+async function graphPost(path, params = {}, token) {
+  const t = token || (await pageToken());
   const form = new URLSearchParams();
-  form.set('access_token', config.token);
+  form.set('access_token', t);
   for (const [k, v] of Object.entries(params)) {
     if (v === undefined || v === null) continue;
     form.set(k, typeof v === 'object' ? JSON.stringify(v) : String(v));
@@ -53,14 +73,14 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ---------- Kesif / saglik ----------
 
-// Token gecerli mi + hangi kimlik? (basit /me cagirisi)
+// Token gecerli mi + hangi kimlik? (kaynak System User token'i ile)
 export async function whoAmI() {
-  return graphGet('me', { fields: 'id,name' });
+  return graphGet('me', { fields: 'id,name' }, config.token);
 }
 
 // Kullanicinin yonettigi sayfalar (PAGE_ID bulmak icin).
 export async function getMeAccounts() {
-  const body = await graphGet('me/accounts', { fields: 'id,name,access_token,tasks' });
+  const body = await graphGet('me/accounts', { fields: 'id,name,access_token,tasks' }, config.token);
   return body.data || [];
 }
 
