@@ -30,17 +30,18 @@ function mediaUrls(item) {
 
 // Instagram'a yayinla.
 async function publishInstagram(item, caption, urls) {
-  if (!config.igUserId) throw new Error('IG_USER_ID tanimli degil');
+  const igId = await graph.effectiveIgId(); // dogru IG id Sayfadan cozulur
+  if (!igId) throw new Error('IG hesabi cozulemedi (PAGE_ID/IG baglantisi kontrol)');
   const type = item.type || 'feed';
   if (type === 'story') {
     const results = [];
-    for (const u of urls) results.push(await graph.igStoryPost(config.igUserId, u));
+    for (const u of urls) results.push(await graph.igStoryPost(igId, u));
     return { platform: 'instagram', type, results };
   }
   if (type === 'carousel' || urls.length > 1) {
-    return { platform: 'instagram', type: 'carousel', results: [await graph.igCarouselPost(config.igUserId, urls, caption)] };
+    return { platform: 'instagram', type: 'carousel', results: [await graph.igCarouselPost(igId, urls, caption)] };
   }
-  return { platform: 'instagram', type: 'feed', results: [await graph.igImagePost(config.igUserId, urls[0], caption)] };
+  return { platform: 'instagram', type: 'feed', results: [await graph.igImagePost(igId, urls[0], caption)] };
 }
 
 // Facebook Sayfasina yayinla.

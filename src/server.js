@@ -13,7 +13,7 @@ import { readState } from './state.js';
 import { dueItems, upcomingItems, findById, readSchedule } from './scheduler.js';
 import { runTick } from './tick.js';
 import { publishItem } from './publisher.js';
-import { whoAmI, getIgUserId, getIgInfo, getPageInfo, getIgPublishLimit } from './graph.js';
+import { whoAmI, getIgUserId, getIgInfo, getPageInfo, getIgPublishLimit, effectiveIgId } from './graph.js';
 
 const app = express();
 app.use(express.json());
@@ -56,10 +56,11 @@ app.get('/api/status', auth, async (req, res) => {
     try { pageCheck = { ok: true, ...(await getPageInfo(config.pageId)) }; }
     catch (e) { pageCheck = { ok: false, error: e.message }; }
   }
-  if (token.ok && config.igUserId) {
-    try { igCheck = { ok: true, ...(await getIgInfo(config.igUserId)) }; }
-    catch (e) { igCheck = { ok: false, error: e.message }; }
-    try { igQuota = { ok: true, ...(await getIgPublishLimit(config.igUserId)) }; }
+  const igId = token.ok ? await effectiveIgId() : null;
+  if (igId) {
+    try { igCheck = { ok: true, resolvedId: igId, ...(await getIgInfo(igId)) }; }
+    catch (e) { igCheck = { ok: false, resolvedId: igId, error: e.message }; }
+    try { igQuota = { ok: true, ...(await getIgPublishLimit(igId)) }; }
     catch (e) { igQuota = { ok: false, error: e.message }; }
   }
   const published = Object.entries(state.items)

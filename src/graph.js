@@ -90,6 +90,20 @@ export async function getIgUserId(pageId) {
   return body?.instagram_business_account?.id || null;
 }
 
+// Gercek IG id'sini Sayfadan cozer (kaynak dogru: Sayfaya bagli IG). config.igUserId
+// yanlis/eksik yazilmis olsa bile Sayfadan gelen dogru id kullanilir. Cache'lenir.
+let _igId = null;
+export async function effectiveIgId() {
+  if (_igId) return _igId;
+  if (config.pageId) {
+    try {
+      const id = await getIgUserId(config.pageId);
+      if (id) { _igId = id; return _igId; }
+    } catch { /* olmazsa config'e dus */ }
+  }
+  return config.igUserId || null;
+}
+
 // IG hesabina dogrudan erisim testi (instagram_basic calisiyor mu?).
 export async function getIgInfo(igUserId) {
   const body = await graphGet(igUserId, { fields: 'username,name' });
