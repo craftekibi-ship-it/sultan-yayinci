@@ -70,6 +70,12 @@ export async function getIgUserId(pageId) {
   return body?.instagram_business_account?.id || null;
 }
 
+// IG hesabina dogrudan erisim testi (instagram_basic calisiyor mu?).
+export async function getIgInfo(igUserId) {
+  const body = await graphGet(igUserId, { fields: 'username,name' });
+  return { username: body.username || null, name: body.name || null };
+}
+
 // IG 24 saatlik yayin kotasi (100/gun).
 export async function getIgPublishLimit(igUserId) {
   const body = await graphGet(`${igUserId}/content_publishing_limit`, {

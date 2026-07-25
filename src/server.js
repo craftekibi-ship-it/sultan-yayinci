@@ -13,7 +13,7 @@ import { readState } from './state.js';
 import { dueItems, upcomingItems, findById, readSchedule } from './scheduler.js';
 import { runTick } from './tick.js';
 import { publishItem } from './publisher.js';
-import { whoAmI, getIgUserId, getIgPublishLimit } from './graph.js';
+import { whoAmI, getIgUserId, getIgInfo, getIgPublishLimit } from './graph.js';
 
 const app = express();
 app.use(express.json());
@@ -40,20 +40,22 @@ function auth(req, res, next) {
 app.get('/api/status', auth, async (req, res) => {
   const state = readState();
   const sched = readSchedule();
+  // Token kontrolu: /me basarili ise token GECERLI. IG kontrolleri ayri,
+  // basarisiz olsalar bile token'i "hatali" yapmaz.
   let token = { ok: false };
-  let igQuota = null;
+  let igCheck = null; // instagram_basic testi (IG hesabini okuyabiliyor mu?)
+  let igQuota = null; // instagram_content_publish + yayin kotasi
   try {
     const me = await whoAmI();
     token = { ok: true, name: me.name || me.id };
-    if (config.igUserId) {
-      const lim = await getIgPublishLimit(config.igUserId);
-      igQuota = lim;
-    } else if (config.pageId) {
-      const ig = await getIgUserId(config.pageId);
-      token.linkedIg = ig;
-    }
   } catch (e) {
     token = { ok: false, error: e.message, tokenError: !!e.isTokenError };
+  }
+  if (token.ok && config.igUserId) {
+    try { igCheck = { ok: true, ...(await getIgInfo(config.igUserId)) }; }
+    catch (e) { igCheck = { ok: false, error: e.message }; }
+    try { igQuota = { ok: true, ...(await getIgPublishLimit(config.igUserId)) }; }
+    catch (e) { igQuota = { ok: false, error: e.message }; }
   }
   const published = Object.entries(state.items)
     .filter(([, v]) => v.status === 'published')
@@ -68,6 +70,7 @@ app.get('/api/status', auth, async (req, res) => {
     mode: { dryRun: config.dryRun, paused: config.paused, tz: config.tz, graphVersion: config.graphVersion },
     config: { missing: missingConfig(), lock: lockStatus(), pageId: config.pageId, igUserId: config.igUserId, publicBaseUrl: config.publicBaseUrl },
     token,
+    igCheck,
     igQuota,
     totals: { planned: (sched.items || []).length, published: published.length, failed: failed.length },
     due: dueItems().map(({ item, when }) => ({ id: item.id, when })),
@@ -153,14 +156,16 @@ async function load(){
   const tok=d.token.ok?'<span class="ok">gecerli ('+esc(d.token.name)+')</span>':'<span class="bad">HATA: '+esc(d.token.error||'yok')+'</span>';
   const lock=d.config.lock.locked?'<span class="warn">AKTIF - '+esc(d.config.lock.problems.join(' | '))+'</span>':'<span class="ok">acik</span>';
   const miss=d.config.missing.length?'<span class="bad">'+d.config.missing.join(', ')+'</span>':'<span class="ok">tam</span>';
-  const quota=d.igQuota?('IG kota: '+(d.igQuota.used??'?')+' / '+d.igQuota.total):'';
+  const igc=d.igCheck?(d.igCheck.ok?'<span class="ok">erisiliyor (@'+esc(d.igCheck.username||'?')+')</span>':'<span class="bad">HATA: '+esc(d.igCheck.error||'')+'</span>'):'';
+  const quota=d.igQuota?(d.igQuota.ok?'kota '+(d.igQuota.used??'?')+' / '+d.igQuota.total:'<span class="warn">kota okunamadi: '+esc(d.igQuota.error||'')+'</span>'):'';
   let h='';
   h+='<div class=card><div class=row><span class=k>Mod</span><span>'+modeBadge+'</span></div>'+
      '<div class=row><span class=k>Token</span><span>'+tok+'</span></div>'+
      '<div class=row><span class=k>Guvenlik kilidi</span><span>'+lock+'</span></div>'+
      '<div class=row><span class=k>Ayarlar</span><span>'+miss+'</span></div>'+
      '<div class=row><span class=k>PAGE_ID / IG_USER_ID</span><span class=mono>'+esc(d.config.pageId||'-')+' / '+esc(d.config.igUserId||'-')+'</span></div>'+
-     (quota?'<div class=row><span class=k>Instagram</span><span>'+esc(quota)+'</span></div>':'')+
+     (igc?'<div class=row><span class=k>Instagram erisim</span><span>'+igc+'</span></div>':'')+
+     (quota?'<div class=row><span class=k>Instagram kota</span><span>'+quota+'</span></div>':'')+
      '<div class=row><span class=k>Plan / Yayinlanan / Hatali</span><span>'+d.totals.planned+' / <span class=ok>'+d.totals.published+'</span> / <span class=bad>'+d.totals.failed+'</span></span></div>'+
      '<div class=btns><button onclick=tick()>Simdi kontrol et</button></div></div>';
   h+='<div class=card><h2>Zamani gelenler ('+d.due.length+')</h2>'+(d.due.length?'<ul>'+d.due.map(x=>'<li class=mono>'+esc(x.id)+' <small>'+dt(x.when)+'</small></li>').join(''):'<small>yok</small>')+'</ul></div>';
