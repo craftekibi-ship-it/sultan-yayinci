@@ -1,124 +1,1079 @@
 {
-  "_note": "Sultan Grill House Temmuz 2026 plani (PDF desteden). 11 feed post (21-31 Tem 20:00) + gunde 2 story rotasyonu. Bugun 24 Tem, 21-23 gecmis (skip). Gorseller content/media icinde bu adlarla olmali. Story sadece Instagram. Footer WhatsApp: +90 536 929 70 69 (dogrula).",
+  "_note": "Sultan Grill House AGUSTOS 2026 plani. Temmuz destesinin 11 post tasarimi (hic yayinlanmadi, DENEME modundaydi) Agustos tarihlerine tasindi + story havuzu rotasyonu (gunde 2, 10 tasarim round-robin). Gorseller content/media icinde GEREKLI-GORSELLER.md adlariyla olmali. Saatler Europe/Istanbul.",
   "defaults": {
     "location": "📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69"
   },
   "items": [
     {
-      "id": "2026-07-21-shrimp-pizza",
-      "date": "2026-07-21", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["21-shrimp-pizza-post.jpg"],
+      "id": "2026-08-02-shrimp-pizza",
+      "date": "2026-08-02",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "21-shrimp-pizza-post.jpg"
+      ],
       "caption": "Shrimp pizza night – wood-fired dough, garlic-butter shrimp, a garden salad on the side.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#ShrimpPizza", "#IstanbulEats", "#Sultanahmet"],
-      "status": "skip"
+      "hashtags": [
+        "#ShrimpPizza",
+        "#IstanbulEats",
+        "#Sultanahmet"
+      ],
+      "status": "pending"
     },
     {
-      "id": "2026-07-22-urfa-kebab",
-      "date": "2026-07-22", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["22-urfa-kebab-post.jpg"],
+      "id": "2026-08-05-urfa-kebab",
+      "date": "2026-08-05",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "22-urfa-kebab-post.jpg"
+      ],
       "caption": "Mild heat, deep smoke. Urfa kebab grilled the way it should be.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#UrfaKebab", "#TurkishGrill", "#Kebab"],
-      "status": "skip"
+      "hashtags": [
+        "#UrfaKebab",
+        "#TurkishGrill",
+        "#Kebab"
+      ],
+      "status": "pending"
     },
     {
-      "id": "2026-07-23-calamari-casserole",
-      "date": "2026-07-23", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["23-calamari-casserole-post.jpg"],
+      "id": "2026-08-08-calamari-casserole",
+      "date": "2026-08-08",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "23-calamari-casserole-post.jpg"
+      ],
       "caption": "From the sea, twice. Crispy calamari meets a bubbling shrimp casserole.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#Seafood", "#Calamari", "#IstanbulFood"],
-      "status": "skip"
+      "hashtags": [
+        "#Seafood",
+        "#Calamari",
+        "#IstanbulFood"
+      ],
+      "status": "pending"
     },
     {
-      "id": "2026-07-24-venue",
-      "date": "2026-07-24", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["24-venue-post.jpg"],
+      "id": "2026-08-11-venue",
+      "date": "2026-08-11",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "24-venue-post.jpg"
+      ],
       "caption": "Two floors in the heart of Sultanahmet – one table is waiting for you.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#Sultanahmet", "#Istanbul", "#DinnerInIstanbul"],
+      "hashtags": [
+        "#Sultanahmet",
+        "#Istanbul",
+        "#DinnerInIstanbul"
+      ],
       "status": "pending"
     },
     {
-      "id": "2026-07-25-beef-doner",
-      "date": "2026-07-25", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["25-beef-doner-post.jpg"],
+      "id": "2026-08-14-beef-doner",
+      "date": "2026-08-14",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "25-beef-doner-post.jpg"
+      ],
       "caption": "The vertical roast, sliced to order. Beef döner done right.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#Doner", "#StreetFood", "#TurkishFood"],
+      "hashtags": [
+        "#Doner",
+        "#StreetFood",
+        "#TurkishFood"
+      ],
       "status": "pending"
     },
     {
-      "id": "2026-07-26-sizzling-beef",
-      "date": "2026-07-26", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["26-sizzling-beef-post.jpg"],
+      "id": "2026-08-17-sizzling-beef",
+      "date": "2026-08-17",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "26-sizzling-beef-post.jpg"
+      ],
       "caption": "Still sizzling when it hits the table. Beef sauté on the iron plate.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#SacKavurma", "#SizzlingBeef", "#Istanbul"],
+      "hashtags": [
+        "#SacKavurma",
+        "#SizzlingBeef",
+        "#Istanbul"
+      ],
       "status": "pending"
     },
     {
-      "id": "2026-07-27-souffle-croissant",
-      "date": "2026-07-27", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["27-souffle-croissant-post.jpg"],
+      "id": "2026-08-20-souffle-croissant",
+      "date": "2026-08-20",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "27-souffle-croissant-post.jpg"
+      ],
       "caption": "Sugar, twice. A molten soufflé and a banana croissant to end the night.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#Dessert", "#ChocolateSouffle", "#SweetTooth"],
+      "hashtags": [
+        "#Dessert",
+        "#ChocolateSouffle",
+        "#SweetTooth"
+      ],
       "status": "pending"
     },
     {
-      "id": "2026-07-28-charcoal-steak",
-      "date": "2026-07-28", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["28-charcoal-steak-post.jpg"],
+      "id": "2026-08-23-charcoal-steak",
+      "date": "2026-08-23",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "28-charcoal-steak-post.jpg"
+      ],
       "caption": "Fire & steel. Charcoal-grilled steak – rested, then sliced.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#Steak", "#CharcoalGrill", "#MeatLovers"],
+      "hashtags": [
+        "#Steak",
+        "#CharcoalGrill",
+        "#MeatLovers"
+      ],
       "status": "pending"
     },
     {
-      "id": "2026-07-29-classics",
-      "date": "2026-07-29", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["29-classics-post.jpg"],
+      "id": "2026-08-26-classics",
+      "date": "2026-08-26",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "29-classics-post.jpg"
+      ],
       "caption": "The ones you came for – İskender, mantı, beyti. Our classics never miss.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#TurkishClassics", "#Iskender", "#Manti"],
+      "hashtags": [
+        "#TurkishClassics",
+        "#Iskender",
+        "#Manti"
+      ],
       "status": "pending"
     },
     {
-      "id": "2026-07-30-lentil-soup",
-      "date": "2026-07-30", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["30-lentil-soup-post.jpg"],
+      "id": "2026-08-28-lentil-soup",
+      "date": "2026-08-28",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "30-lentil-soup-post.jpg"
+      ],
       "caption": "Soup first, always. A warm bowl of lentil soup to start.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#LentilSoup", "#Mercimek", "#ComfortFood"],
+      "hashtags": [
+        "#LentilSoup",
+        "#Mercimek",
+        "#ComfortFood"
+      ],
       "status": "pending"
     },
     {
-      "id": "2026-07-31-sea-bream",
-      "date": "2026-07-31", "time": "20:00", "tz": "Europe/Istanbul",
-      "platforms": ["instagram", "facebook"], "type": "feed",
-      "media": ["31-sea-bream-post.jpg"],
+      "id": "2026-08-30-sea-bream",
+      "date": "2026-08-30",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "31-sea-bream-post.jpg"
+      ],
       "caption": "Whole fish over open fire. Sea bream, grilled and served whole.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 536 929 70 69",
-      "hashtags": ["#SeaBream", "#GrilledFish", "#Seafood"],
+      "hashtags": [
+        "#SeaBream",
+        "#GrilledFish",
+        "#Seafood"
+      ],
       "status": "pending"
     },
-
-    { "id": "story-2026-07-24-am", "date": "2026-07-24", "time": "11:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-slow-mornings.jpg"], "status": "pending" },
-    { "id": "story-2026-07-24-pm", "date": "2026-07-24", "time": "21:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-the-grill.jpg"], "status": "pending" },
-    { "id": "story-2026-07-25-am", "date": "2026-07-25", "time": "11:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-hagia-sophia.jpg"], "status": "pending" },
-    { "id": "story-2026-07-25-pm", "date": "2026-07-25", "time": "21:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-smash-hour.jpg"], "status": "pending" },
-    { "id": "story-2026-07-26-am", "date": "2026-07-26", "time": "11:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-room-ready.jpg"], "status": "pending" },
-    { "id": "story-2026-07-26-pm", "date": "2026-07-26", "time": "21:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-tonights-catch.jpg"], "status": "pending" },
-    { "id": "story-2026-07-27-am", "date": "2026-07-27", "time": "11:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-how-to-eat-manti.jpg"], "status": "pending" },
-    { "id": "story-2026-07-27-pm", "date": "2026-07-27", "time": "21:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-surf-turf.jpg"], "status": "pending" },
-    { "id": "story-2026-07-28-am", "date": "2026-07-28", "time": "11:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-slow-mornings.jpg"], "status": "pending" },
-    { "id": "story-2026-07-28-pm", "date": "2026-07-28", "time": "21:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-order-for-table.jpg"], "status": "pending" },
-    { "id": "story-2026-07-29-am", "date": "2026-07-29", "time": "11:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-hagia-sophia.jpg"], "status": "pending" },
-    { "id": "story-2026-07-29-pm", "date": "2026-07-29", "time": "21:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-shrimp-pizza.jpg"], "status": "pending" },
-    { "id": "story-2026-07-30-am", "date": "2026-07-30", "time": "11:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-room-ready.jpg"], "status": "pending" },
-    { "id": "story-2026-07-30-pm", "date": "2026-07-30", "time": "21:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-the-grill.jpg"], "status": "pending" },
-    { "id": "story-2026-07-31-am", "date": "2026-07-31", "time": "11:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-how-to-eat-manti.jpg"], "status": "pending" },
-    { "id": "story-2026-07-31-pm", "date": "2026-07-31", "time": "21:00", "tz": "Europe/Istanbul", "platforms": ["instagram"], "type": "story", "media": ["story-tonights-catch.jpg"], "status": "pending" }
+    {
+      "id": "story-2026-08-02-am",
+      "date": "2026-08-02",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-slow-mornings.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-02-pm",
+      "date": "2026-08-02",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-the-grill.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-03-am",
+      "date": "2026-08-03",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-hagia-sophia.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-03-pm",
+      "date": "2026-08-03",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-smash-hour.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-04-am",
+      "date": "2026-08-04",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-room-ready.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-04-pm",
+      "date": "2026-08-04",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-tonights-catch.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-05-am",
+      "date": "2026-08-05",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-how-to-eat-manti.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-05-pm",
+      "date": "2026-08-05",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-surf-turf.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-06-am",
+      "date": "2026-08-06",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-order-for-table.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-06-pm",
+      "date": "2026-08-06",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-shrimp-pizza.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-07-am",
+      "date": "2026-08-07",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-slow-mornings.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-07-pm",
+      "date": "2026-08-07",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-the-grill.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-08-am",
+      "date": "2026-08-08",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-hagia-sophia.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-08-pm",
+      "date": "2026-08-08",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-smash-hour.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-09-am",
+      "date": "2026-08-09",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-room-ready.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-09-pm",
+      "date": "2026-08-09",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-tonights-catch.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-10-am",
+      "date": "2026-08-10",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-how-to-eat-manti.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-10-pm",
+      "date": "2026-08-10",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-surf-turf.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-11-am",
+      "date": "2026-08-11",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-order-for-table.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-11-pm",
+      "date": "2026-08-11",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-shrimp-pizza.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-12-am",
+      "date": "2026-08-12",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-slow-mornings.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-12-pm",
+      "date": "2026-08-12",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-the-grill.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-13-am",
+      "date": "2026-08-13",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-hagia-sophia.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-13-pm",
+      "date": "2026-08-13",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-smash-hour.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-14-am",
+      "date": "2026-08-14",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-room-ready.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-14-pm",
+      "date": "2026-08-14",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-tonights-catch.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-15-am",
+      "date": "2026-08-15",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-how-to-eat-manti.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-15-pm",
+      "date": "2026-08-15",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-surf-turf.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-16-am",
+      "date": "2026-08-16",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-order-for-table.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-16-pm",
+      "date": "2026-08-16",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-shrimp-pizza.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-17-am",
+      "date": "2026-08-17",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-slow-mornings.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-17-pm",
+      "date": "2026-08-17",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-the-grill.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-18-am",
+      "date": "2026-08-18",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-hagia-sophia.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-18-pm",
+      "date": "2026-08-18",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-smash-hour.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-19-am",
+      "date": "2026-08-19",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-room-ready.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-19-pm",
+      "date": "2026-08-19",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-tonights-catch.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-20-am",
+      "date": "2026-08-20",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-how-to-eat-manti.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-20-pm",
+      "date": "2026-08-20",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-surf-turf.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-21-am",
+      "date": "2026-08-21",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-order-for-table.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-21-pm",
+      "date": "2026-08-21",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-shrimp-pizza.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-22-am",
+      "date": "2026-08-22",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-slow-mornings.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-22-pm",
+      "date": "2026-08-22",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-the-grill.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-23-am",
+      "date": "2026-08-23",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-hagia-sophia.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-23-pm",
+      "date": "2026-08-23",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-smash-hour.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-24-am",
+      "date": "2026-08-24",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-room-ready.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-24-pm",
+      "date": "2026-08-24",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-tonights-catch.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-25-am",
+      "date": "2026-08-25",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-how-to-eat-manti.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-25-pm",
+      "date": "2026-08-25",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-surf-turf.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-26-am",
+      "date": "2026-08-26",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-order-for-table.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-26-pm",
+      "date": "2026-08-26",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-shrimp-pizza.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-27-am",
+      "date": "2026-08-27",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-slow-mornings.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-27-pm",
+      "date": "2026-08-27",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-the-grill.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-28-am",
+      "date": "2026-08-28",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-hagia-sophia.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-28-pm",
+      "date": "2026-08-28",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-smash-hour.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-29-am",
+      "date": "2026-08-29",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-room-ready.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-29-pm",
+      "date": "2026-08-29",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-tonights-catch.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-30-am",
+      "date": "2026-08-30",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-how-to-eat-manti.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-30-pm",
+      "date": "2026-08-30",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-surf-turf.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-31-am",
+      "date": "2026-08-31",
+      "time": "11:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-order-for-table.jpg"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-08-31-pm",
+      "date": "2026-08-31",
+      "time": "21:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-shrimp-pizza.jpg"
+      ],
+      "status": "pending"
+    }
   ]
 }
