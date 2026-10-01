@@ -63,15 +63,16 @@ app.get('/api/status', auth, async (req, res) => {
     try { igQuota = { ok: true, ...(await getIgPublishLimit(igId)) }; }
     catch (e) { igQuota = { ok: false, error: e.message }; }
   }
-  const published = Object.entries(state.items)
+  const publishedAll = Object.entries(state.items)
     .filter(([, v]) => v.status === 'published')
     .map(([id, v]) => ({ id, at: v.at }))
-    .sort((a, b) => (a.at < b.at ? 1 : -1))
-    .slice(0, 15);
-  const failed = Object.entries(state.items)
+    .sort((a, b) => (a.at < b.at ? 1 : -1));
+  const failedAll = Object.entries(state.items)
     .filter(([, v]) => v.status === 'failed')
-    .map(([id, v]) => ({ id, at: v.at, detail: v.detail }))
-    .slice(0, 15);
+    .map(([id, v]) => ({ id, at: v.at, detail: v.detail }));
+  // Sayaclar tum gecmisi sayar, listeler son 15 ile sinirli (panel kisa kalsin)
+  const published = publishedAll.slice(0, 15);
+  const failed = failedAll.slice(0, 15);
   res.json({
     mode: { dryRun: config.dryRun, paused: config.paused, tz: config.tz, graphVersion: config.graphVersion },
     config: { missing: missingConfig(), lock: lockStatus(), pageId: config.pageId, igUserId: config.igUserId, publicBaseUrl: config.publicBaseUrl },
@@ -79,7 +80,7 @@ app.get('/api/status', auth, async (req, res) => {
     pageCheck,
     igCheck,
     igQuota,
-    totals: { planned: (sched.items || []).length, published: published.length, failed: failed.length },
+    totals: { planned: (sched.items || []).length, published: publishedAll.length, failed: failedAll.length },
     due: dueItems().map(({ item, when }) => ({ id: item.id, when })),
     upcoming: upcomingItems().map(({ item, when }) => ({ id: item.id, when, type: item.type || 'feed', platforms: item.platforms || ['instagram', 'facebook'] })),
     published,

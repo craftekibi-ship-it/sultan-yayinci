@@ -1895,6 +1895,1092 @@
         "#SharingPlatter"
       ],
       "status": "pending"
+    },
+    {
+      "id": "story-2026-10-02-am",
+      "date": "2026-10-02",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-03.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-02-pm",
+      "date": "2026-10-02",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-04.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-03-am",
+      "date": "2026-10-03",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-05.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-03-pm",
+      "date": "2026-10-03",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-06.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "2026-10-03-octopus-casserole",
+      "date": "2026-10-03",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "post-26.jpg"
+      ],
+      "caption": "Slow, hot and worth the wait. Octopus casserole, simmered under a copper dome until the table is ready for it.\n\nДолго, горячо и стоит того, чтобы подождать. Гювеч с осьминогом томится под медным колпаком, пока за столом не будут к нему готовы.\n\nبطيء الطهي، ساخن، ويستحق الانتظار. طاجن الأخطبوط ينضج على نار هادئة تحت قبّة نحاسية حتى تصبح المائدة جاهزة له.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 545 594 26 61",
+      "hashtags": [
+        "#Sultanahmet",
+        "#Octopus",
+        "#SlowCooked"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-04-am",
+      "date": "2026-10-04",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-07.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-04-pm",
+      "date": "2026-10-04",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-08.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-05-am",
+      "date": "2026-10-05",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-09.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-05-pm",
+      "date": "2026-10-05",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-10.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-06-am",
+      "date": "2026-10-06",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-11.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-06-pm",
+      "date": "2026-10-06",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-12.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-07-am",
+      "date": "2026-10-07",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-13.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-07-pm",
+      "date": "2026-10-07",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-14.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "2026-10-07-grilled-kofte",
+      "date": "2026-10-07",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "post-21.jpg"
+      ],
+      "caption": "Some classics are best left alone. Köfte off the charcoal with a heap of rice, fries and a roasted pepper, nothing on the plate that doesn't belong.\n\nЕсть классика, которую лучше не трогать. Кёфте прямо с углей, горка риса, картофель фри и печёный перец. На тарелке ничего лишнего.\n\nبعض الأطباق الكلاسيكية من الأفضل أن تُترك كما هي. كفتة من على الفحم مع كومة من الأرز وبطاطا مقلية وفلفل مشوي، ولا شيء في الطبق في غير محلّه.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 545 594 26 61",
+      "hashtags": [
+        "#Sultanahmet",
+        "#Kofte",
+        "#TurkishGrill"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-08-am",
+      "date": "2026-10-08",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-15.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-08-pm",
+      "date": "2026-10-08",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-16.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-09-am",
+      "date": "2026-10-09",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-17.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-09-pm",
+      "date": "2026-10-09",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-18.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-10-am",
+      "date": "2026-10-10",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-01.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-10-pm",
+      "date": "2026-10-10",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-02.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-11-am",
+      "date": "2026-10-11",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-03.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-11-pm",
+      "date": "2026-10-11",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-04.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-12-am",
+      "date": "2026-10-12",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-05.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-12-pm",
+      "date": "2026-10-12",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-06.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "2026-10-12-grilled-salmon",
+      "date": "2026-10-12",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "post-28.jpg"
+      ],
+      "caption": "Salmon over the fire, pink at the centre and firm at the edges. A plate that keeps the evening light.\n\nЛосось с огня, розовый в середине и плотный по краям. Тарелка, после которой вечер остаётся лёгким.\n\nسلمون على النار، وردي في الوسط ومتماسك عند الأطراف. طبق يُبقي المساء خفيفًا.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 545 594 26 61",
+      "hashtags": [
+        "#Sultanahmet",
+        "#Salmon",
+        "#GrilledFish"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-13-am",
+      "date": "2026-10-13",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-07.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-13-pm",
+      "date": "2026-10-13",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-08.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-14-am",
+      "date": "2026-10-14",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-09.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-14-pm",
+      "date": "2026-10-14",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-10.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-15-am",
+      "date": "2026-10-15",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-11.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-15-pm",
+      "date": "2026-10-15",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-12.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-16-am",
+      "date": "2026-10-16",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-13.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-16-pm",
+      "date": "2026-10-16",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-14.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "2026-10-16-butter-mushrooms",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "post-25.jpg"
+      ],
+      "caption": "Mushrooms, tomatoes and peppers, slow-cooked under the copper lid. Comfort, served in one warm clay pot.\n\nГрибы, томаты и перец, долго томлённые под медной крышкой. Уют, который подают в одном тёплом глиняном горшочке.\n\nفطر وطماطم وفلفل، تُطهى على مهل تحت الغطاء النحاسي. راحة تُقدَّم دافئةً في طاجن فخّاري واحد.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 545 594 26 61",
+      "hashtags": [
+        "#Sultanahmet",
+        "#Mushrooms",
+        "#Guvec"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-17-am",
+      "date": "2026-10-17",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-15.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-17-pm",
+      "date": "2026-10-17",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-16.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-18-am",
+      "date": "2026-10-18",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-17.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-18-pm",
+      "date": "2026-10-18",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-18.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-19-am",
+      "date": "2026-10-19",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-01.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-19-pm",
+      "date": "2026-10-19",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-02.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-20-am",
+      "date": "2026-10-20",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-03.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-20-pm",
+      "date": "2026-10-20",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-04.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-21-am",
+      "date": "2026-10-21",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-05.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-21-pm",
+      "date": "2026-10-21",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-06.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "2026-10-21-crispy-fries",
+      "date": "2026-10-21",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "post-30.jpg"
+      ],
+      "caption": "Every plate off the grill needs a sidekick. Golden, crisp fries that never last long on the table.\n\nКаждому блюду с гриля нужен напарник. Золотистый хрустящий картофель фри, который никогда не задерживается на столе надолго.\n\nكل طبق يخرج من الشواية يحتاج إلى رفيق. بطاطا مقلية ذهبية مقرمشة لا تبقى طويلًا على المائدة.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 545 594 26 61",
+      "hashtags": [
+        "#Sultanahmet",
+        "#Fries",
+        "#ComfortFood"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-22-am",
+      "date": "2026-10-22",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-07.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-22-pm",
+      "date": "2026-10-22",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-08.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-23-am",
+      "date": "2026-10-23",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-09.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-23-pm",
+      "date": "2026-10-23",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-10.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-24-am",
+      "date": "2026-10-24",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-11.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-24-pm",
+      "date": "2026-10-24",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-12.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-25-am",
+      "date": "2026-10-25",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-13.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-25-pm",
+      "date": "2026-10-25",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-14.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "2026-10-25-cold-sea-table",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "type": "feed",
+      "media": [
+        "post-20.jpg"
+      ],
+      "caption": "Cold plates from the sea. Marinated anchovies and cured fish, laid out before the grill for an evening that takes its time.\n\nХолодные морские закуски. Маринованные анчоусы и солёная рыба, поданные перед горячим с гриля, для вечера, который никуда не спешит.\n\nأطباق باردة من البحر. أنشوجة متبّلة وسمك مملّح، تُرصّ على المائدة قبل المشاوي لأمسية تمضي على مهلها.\n\n📍 Next to the Basilica Cistern · Reserve on WhatsApp +90 545 594 26 61",
+      "hashtags": [
+        "#Sultanahmet",
+        "#Meze",
+        "#Anchovies"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-26-am",
+      "date": "2026-10-26",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-15.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-26-pm",
+      "date": "2026-10-26",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-16.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-27-am",
+      "date": "2026-10-27",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-17.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-27-pm",
+      "date": "2026-10-27",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-18.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-28-am",
+      "date": "2026-10-28",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-01.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-28-pm",
+      "date": "2026-10-28",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-02.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-29-am",
+      "date": "2026-10-29",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-03.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-29-pm",
+      "date": "2026-10-29",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-04.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-30-am",
+      "date": "2026-10-30",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-05.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-30-pm",
+      "date": "2026-10-30",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-06.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-31-am",
+      "date": "2026-10-31",
+      "time": "10:00",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-07.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
+    },
+    {
+      "id": "story-2026-10-31-pm",
+      "date": "2026-10-31",
+      "time": "18:30",
+      "tz": "Europe/Istanbul",
+      "platforms": [
+        "instagram"
+      ],
+      "type": "story",
+      "media": [
+        "story-08.jpg"
+      ],
+      "caption": "",
+      "hashtags": [],
+      "status": "pending"
     }
   ]
 }
